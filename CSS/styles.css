@@ -7,27 +7,41 @@
     font-family: "Open Sans", sans-serif;
 }
 header, nav, ul, footer {
-    display: flexbox;
+    display: flex;
 }
 header {
-    background-color: green;
+    background-image: url(../images/exam-logo-isolated-white-background_681420-5396.jpg);
     width: 100%; 
     height: 500px;
-    justify-content: space-between;
 }
 nav {
     font-size: 16px;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
 }
 h1 {
     color: aqua;
     font-size: 48px;
 }
-section {
-    display: flex;
-    justify-content: center;
-
-}
 h2 {
     color: lightcoral;
-    background-color:
+    text-align: center;
+    font-size: 32px;
+}
+
+footer {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    background-color: lightyellow;
+    height: 150px;
+    width: 100%;
+}
+main {
+    display: flex;
+    padding: 0px 480px;
+    justify-content: center;
 }
